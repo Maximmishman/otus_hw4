@@ -1,0 +1,20 @@
+# Виртуальные окружения
+.venv/
+.venv-webui/
+.venv-playwright/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Данные и индексы (генерируются скриптами, не коммитим из-за размера)
+data/raw/
+data/processed/
+storage/
+
+# Секреты и локальные настройки
+.env
+
+# Логи
+*.log
